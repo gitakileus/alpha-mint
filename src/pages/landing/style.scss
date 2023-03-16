@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body {
+  overflow-x: hidden;
+}
+
+.gradient-border:hover {
+  --border-width: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #141420;
+  border-radius: 30px;
+
+  &::after {
+    position: absolute;
+    content: '';
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -10;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: 30px;
+    animation: moveGradient 4s alternate infinite;
+  }
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.star {
+  div {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-position-x: 50%;
+    background-size: cover;
+    z-index: 0;
+    animation: animateBg 2000s linear infinite;
+  }
+  @keyframes animateBg {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+      0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+    animation: animate 4s linear infinite;
+  }
+  span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, #fff, transparent);
+  }
+  @keyframes animate {
+    0% {
+      transform: rotate(315deg) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(315deg) translateX(-1500px);
+      opacity: 0;
+    }
+  }
+  span:nth-child(1) {
+    top: 0;
+    left: 300px;
+    animation-delay: 0;
+    animation-duration: 6s;
+  }
+
+  span:nth-child(2) {
+    top: 0;
+    left: 500px;
+    animation-delay: 0.2s;
+    animation-duration: 8s;
+  }
+
+  span:nth-child(3) {
+    top: 80px;
+    right: 0px;
+    left: initial;
+    animation-delay: 0.4s;
+    animation-duration: 5s;
+  }
+
+  span:nth-child(4) {
+    top: 0;
+    right: 180px;
+    left: initial;
+    animation-delay: 0.8s;
+    animation-duration: 4s;
+  }
+
+  span:nth-child(5) {
+    top: 0;
+    right: 400px;
+    left: initial;
+    animation-delay: 1.2s;
+    animation-duration: 7s;
+  }
+
+  span:nth-child(6) {
+    top: 0;
+    right: 600px;
+    left: initial;
+    animation-delay: 1.4s;
+    animation-duration: 6s;
+  }
+  span:nth-child(7) {
+    top: 300px;
+    right: 0px;
+    left: initial;
+    animation-delay: 1.7s;
+    animation-duration: 3s;
+  }
+}
+
+.quote-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 10% auto 0; /*OPTIONAL MARGIN*/
+
+  .text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    color: white;
+  }
+
+  .text p {
+    height: 100%;
+    font-size: 21px;
+    line-height: 1.25;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .text::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    float: left;
+    shape-outside: polygon(
+      0 0,
+      98% 0,
+      50% 6%,
+      23.4% 17.3%,
+      6% 32.6%,
+      0 50%,
+      6% 65.6%,
+      23.4% 82.7%,
+      50% 94%,
+      98% 100%,
+      0 100%
+    );
+    shape-margin: 7%;
+  }
+
+  .text p::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    float: right;
+    shape-outside: polygon(
+      2% 0%,
+      100% 0%,
+      100% 100%,
+      2% 100%,
+      50% 94%,
+      76.6% 82.7%,
+      94% 65.6%,
+      100% 50%,
+      94% 32.6%,
+      76.6% 17.3%,
+      50% 6%
+    );
+    shape-margin: 7%;
+  }
+
+  .quote-wrapper blockquote footer {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .quote-wrapper::before {
+    content: '\201C';
+    font-size: 270px;
+    height: 82px;
+    line-height: 0.78;
+    line-height: 1;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    z-index: 1;
+    font-family: sans-serif, serif;
+    color: #ccc;
+    opacity: 0.9;
+  }
+
+  @media (min-width: 850px) {
+    .quote-wrapper {
+      width: 370px;
+      height: 370px;
+    }
+
+    .quote-wrapper::before {
+      font-size: 300px;
+    }
+
+    .text p {
+      font-size: 26px;
+    }
+
+    .quote-wrapper blockquote footer {
+      bottom: 32px;
+    }
+  }
+
+  /*THIS CSS IS NOT REQUIRED FOR CIRCULAR TEXT*/
+  /*THIS CSS IS NOT REQUIRED FOR CIRCULAR TEXT*/
+
+  .note {
+    margin: 5vw;
+    padding: 0.5em;
+    border-left: 0.5em solid #52e052;
+    background: #e9fbe9;
+  }
+
+  .note a {
+    text-decoration: none;
+    color: #161b1e;
+  }
+
+  .note a:hover {
+    text-decoration: underline;
+  }
+}

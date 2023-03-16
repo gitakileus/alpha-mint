@@ -1,0 +1,38 @@
+[
+  {
+    "title": "What is an NFT?",
+    "content": "NFT stands for “non-fungible token” which is a unique, one-of-a-kind digital asset that can be bought, sold, owned, and traded. NFTs are often pieces of digital art, but could also be other collectibles, ticketed access or digital representations of physical assets."
+  },
+  {
+    "title": "What does it mean to 'mint' an NFT?",
+    "content": "Minting refers to the process of tokenizing a digital file (I.e, a digital piece of art or media), and recording it on the blockchain. Once you've minted a Lupin Allmighty NFT, your ownership is verifiable and you can trade or sell it on secondary platforms."
+  },
+  {
+    "title": "What are gas fees?",
+    "content": "Whenever you initiate a transaction on the Ethereum blockchain, like when you attempt to mint a Lupin Allmighty NFT, you will be charged a “gas” fee. This is a fee that you pay to the third parties involved in processing the transaction on the Ethereum blockchain to compensate them for executing the operations needed to confirm your transaction. When you purchase a Lupin Allmighty NFT, you will need enough ETH in your wallet to pay the applicable minting price as well as the associated gas fees.<br> The amount you will be required to pay as a gas fee is volatile and may fluctuate over time based upon demand for and availability of third parties, called miners, who are needed to process the transaction. At mint time, you should be able to see the gas fee and may be able to set limits on gas fees you are willing to pay through your wallet provider such as Metamask.<br> If the gas fees exceed the fee you offered to pay, your wallet does not contain sufficient funds to settle the transaction, or if the number of attempted mints exceeds the number of Lupin Allmighty NFTs available to purchase, your transaction might fail and you may pay gas fees without successfully minting. Lost gas fees are non-refundable and you should only attempt to mint when you understand these risks."
+  },
+  {
+    "title": "What is a wallet?",
+    "content": "A cryptocurrency wallet is an application that lets you interact with one or more accounts on a supported blockchain. You can use a cryptocurrency wallet to send and receive cryptocurrency, NFTs, and other digital assets to the address associated with your blockchain account. Wallets, and in particular the wallet address that identifies your blockchain account, provide the gateway to the respective blockchain network (e.g., Ethereum, Solana etc.) where your assets are located and contain the keys that link your ownership to a specific NFT.<br> You will need an Ethereum wallet and a wallet address to purchase a Petabytes NFT. Common wallets include MetaMask and Coinbase Wallet - please reference these Install guides (MetaMask guide, Coinbase Wallet guide) to get started."
+  },
+  {
+    "title": "How to blockchain wallet FAQs | MetaMask?",
+    "content": "A cryptocurrency wallet is an application that lets you interact with one or more accounts on a supported blockchain. You can use a cryptocurrency wallet to send and receive cryptocurrency, NFTs, and other digital assets to the address associated with your blockchain account. Wallets, and in particular the wallet address that identifies your blockchain account, provide the gateway to the respective blockchain network (e.g., Ethereum, Solana etc.) where your assets are located and contain the keys that link your ownership to a specific NFT.<br> You will need an Ethereum wallet and a wallet address to purchase a Petabytes NFT. Common wallets include MetaMask and Coinbase Wallet - please reference these Install guides (MetaMask guide, Coinbase Wallet guide) to get started."
+  },
+  {
+    "title": "How many Alpha Collectibles can I mint?",
+    "content": "The Max is 5 Collectibles per wallet."
+  },
+  {
+    "title": "How do I mint a Alpha Collectible? ",
+    "content": "To mint your Alpha Collectible you must first have a MetaMask account - a digital wallet.<br>You will need to fund your wallet with Ethereum.On mint day you will press the mint button on our page and connect your wallet to the project.<br>You pick how many collectibles to you want to mint."
+  },
+  {
+    "title": "Where can I view my NFTs?",
+    "content": "Once you have minted a  Alpha ALMTY NFT,  you will be able to see it on Opensea by connecting your Wallet"
+  },
+  {
+    "title": "What is the next roadmap?",
+    "content": "V1.5 ROADMAP 2.<br> Level 1 - NFTs & Giveaways moneybag <br> Level 2: Community wallet will be established using royalties to fund future giveaways. All Cool Alpha holders will be able to vote on what to do with the funds.<br> Level 3 - Exclusive merchandise Alpha our Merchandise Designs Launch.<br> Level 4 - Free Airdrop and giveaway for up to 500 Proactive Alpha holders! Level up - Roadmap 2 & Whitepaper to be announced soon. <br><br> V 2.0 Roadmap <br>We've got many exciting things on the roadmap. We're focused on building for the long term. Read the masterplan as we plan for the future. <br>1. Play 2 Earn Alpha Almighty Club<br> As teased before, we will be creating an entire Alpha Ecosystem. This includes a P2E game as well as utility tokens that benefit holders. The goal is to conquer the Alpha Project in the Alpha-Verse and make Alpha part of something bigger, In the MetaVerse.<br> 2. Staking & Rewards<br> Once the P2E game is out, you will be able to stake your Alpha NFTs to earn $LLUP tokens. These tokens will be used by players of the Alpha game. We'll be working together with Tokenomics experts to ensure we retain value and our ecosystem's economy is on point. The projected timeline for the launch will be announced soon Players will need to own our Lupin Almighty NFT and some $LLUP tokens to play the game, so demand for our tokens is naturally built in.<br> Our story continues. Most of our project launch date and steps-by-steps will be announced soon, so stay tuned."
+  }
+]

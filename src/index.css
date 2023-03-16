@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jtp {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 181.2px;
+  line-height: 138.5%;
+  /* or 112px */
+
+  letter-spacing: 0.05em;
+
+  font-size: 81.2px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #be50e5;
+  -webkit-text-fill-color: transparent;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Days+One);
+
+html,
+body {
+  font-family: 'Days One', sans-serif;
+}
+
+* {
+  font-family: inherit;
+}
+
+button {
+  outline: none !important;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

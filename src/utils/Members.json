@@ -1,0 +1,12 @@
+[
+  {
+    "image": "/assets/images/collection1.png",
+    "role": "The Creator",
+    "name": "ALPHA"
+  },
+  {
+    "image": "/assets/images/collection2.png",
+    "role": "The Developer",
+    "name": "Akileus"
+  }
+]
